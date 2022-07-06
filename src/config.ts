@@ -32,15 +32,38 @@ export const KNOWN_LANGUAGES = {
 //   apiKey: 'XXXXXXXXXX',
 // }
 
+
+// To add a page copy the following & replace anything in bracket.
+// { text: '[insert the name]', link: 'en/[page location]' },
+
+// The page won't be seen if this doesn't exist.
+
 export const SIDEBAR = {
 	en: [
-		{ text: '', header: true },
-		{ text: 'Section Header', header: true },
-		{ text: 'Introduction', link: 'en/introduction' },
+		{ text: 'INTRO', header: true }, // Header is the Bold label
+		{ text: 'Introduction', link: 'en/introduction' }, // Link is the page location
 		{ text: 'Page 2', link: 'en/page-2' },
 		{ text: 'Page 3', link: 'en/page-3' },
 
-		{ text: 'Another Section', header: true },
+//Electrical		
+		{ text: 'Electrical', header: true },
+		{ text: 'Safety', link: 'en/Electrical/Safety' },
+		{ text: 'MLA Panel', link: 'en/Electrical/MLA Panel' },
+
+//Mechanical		
+		{ text: 'Mechanical', header: true },
 		{ text: 'Page 4', link: 'en/page-4' },
+
+//Production		
+		{ text: 'Production', header: true },
+
+//Purchasing		
+		{ text: 'Purchasing', header: true },
+
+//Sales		
+		{ text: 'Sales & Services', header: true },
+
+//Software
+		{ text: 'Software', header: true },
 	],
 };
